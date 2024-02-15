@@ -13,9 +13,6 @@
 	font-style: normal;
 }
 
-[epub|type~="z3998:hymn"] [epub|type~="bridgehead"],
-[epub|type~="z3998:poem"] [epub|type~="bridgehead"],
-[epub|type~="z3998:song"] [epub|type~="bridgehead"],
-[epub|type~="z3998:verse"] [epub|type~="bridgehead"]{
-	text-align: justify;
+abbr[epub|type~="se:era"] {
+	font-variant: all-small-caps;
 }
