@@ -1,7 +1,7 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-[epub|type~="bridgehead"]{
+[epub|type~="bridgehead"] {
 	display: inline-block;
 	font-style: italic;
 	max-width: 60%;
@@ -9,7 +9,7 @@
 	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] i{
+[epub|type~="bridgehead"] i {
 	font-style: normal;
 }
 
@@ -17,22 +17,26 @@ abbr[epub|type~="se:era"] {
 	font-variant: all-small-caps;
 }
 
-[epub|type~="z3998:song"] p{
+[epub|type~="z3998:song"] p,
+[epub|type~="z3998:poem"] p {
 	text-align: initial;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:song"] p > span{
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:poem"] p > span {
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
-[epub|type~="z3998:song"] p > span + br{
+[epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:poem"] p > span + br {
 	display: none;
 }
 
-[epub|type~="z3998:song"] p + p{
+[epub|type~="z3998:song"] p + p,
+[epub|type~="z3998:poem"] p + p {
 	margin-top: 1em;
 }
 
