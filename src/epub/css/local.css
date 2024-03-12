@@ -48,3 +48,13 @@ p span.i1{
 table {
 	margin: 1em auto;
 }
+
+#chapter-11 blockquote p{
+	text-indent: 0;
+}
+
+#chapter-11 blockquote p:first-child {
+	font-variant: small-caps;
+	text-align: center;
+	font-size: 1.25em;
+}
