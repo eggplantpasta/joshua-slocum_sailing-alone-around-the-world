@@ -41,7 +41,6 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/6317</dc:source>
 		<dc:source>https://archive.org/details/sailingalonearo01slocgoog</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Sailing_Alone_Around_the_World</meta>
@@ -68,13 +67,18 @@
 		<meta property="file-as" refines="#illustrator-2">Varian, George</meta>
 		<meta property="se:url.authority.nacoaf" refines="#illustrator-2">http://id.loc.gov/authorities/names/n88061487</meta>
 		<meta property="role" refines="#illustrator-2" scheme="marc:relators">ill</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-1">D Garcia</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">1</meta>
+		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>		
+		<dc:contributor id="transcriber-2">Juliet Sutherland</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">2</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">Charles Franks</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">3</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Brett Roper</dc:contributor>
+		<meta property="file-as" refines="#producer-1">1</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://github.com/eggplantpasta</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
