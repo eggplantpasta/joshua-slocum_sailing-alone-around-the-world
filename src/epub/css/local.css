@@ -72,6 +72,6 @@ figcaption{
 	margin: 1em;
 }
 
-figcaption p + p{
-	text-indent: 0;
+figcaption i{
+	font-style: normal;
 }
