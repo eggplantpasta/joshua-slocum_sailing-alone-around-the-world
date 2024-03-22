@@ -34,9 +34,12 @@
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85144447</meta>
 		<meta property="se:subject">Adventure</meta>
-		<dc:description id="description">An American seaman repairs a small sailing vessel and takes it on an adventure completing the first solo circumnavigation of the world.</dc:description>
+		<dc:description id="description">An American sea captian repairs a small sailing ship and takes it on an adventure, completing the first solo circumnavigation of the world.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Joshua Slocum tells of his adventures re-building and sailing his thirty-six-foot wooden sloop &lt;i&gt;Spray&lt;/i&gt; single handedly around the world. The first person to achieve this feat, his book received wide acclaim and became a bestseller, and has been captivating readers for over 100 years.&lt;/p&gt;
+			&lt;p&gt;This tale of his three year voyage contains stories of danger, adventure, and discovery in a world of people and places of years gone by that no longer exist in such a unspoiled state. Fearsome encounters with pirates, storms, treacherous shoals, coral reefs, and waves, are balanced with friendly dolphin and turtle travel companions and warm island welcomes for the entirety of the more than 46,000 mile journey.&lt;/p&gt;
+			&lt;p&gt;His fame increasing as his voyage continued, he was met with kindness and generosity in many of the ports he visited. Often meeting with governors and other persons of note; the widow of Robert Louis Stevenson in Samoa, President Krueger of South Africa, and Henry Stanley of "Stanley and Livingstone" fame, among others.&lt;/p&gt;
+			&lt;p&gt;Slocum writes in the manner of a ship captain of the 1800s, writing in a fast paced and often humorous style, full of authentic and colorful vernacular. This book entertains as much today as when it was written.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/6317</dc:source>
@@ -71,7 +74,7 @@
 		<meta property="role" refines="#illustrator-2" scheme="marc:relators">ill</meta>
 		<dc:contributor id="transcriber-1">D Garcia</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">1</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>		
+		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Juliet Sutherland</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">2</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
